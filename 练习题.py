@@ -34,6 +34,7 @@ class TrueFalseQuizApp:
         self.option_true.pack(pady=5, padx=20, anchor="w")  # 使用pack左对齐，并加入上下间距
         self.option_false.pack(pady=5, padx=20, anchor="w")
         
+        # 选项说明
         # 结果显示标签
         self.result_label = tk.Label(root, text="", font=("Arial", 12))
         self.result_label.pack(pady=10)
