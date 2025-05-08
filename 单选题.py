@@ -26,7 +26,7 @@ class SingleChoiceQuizApp:
         self.question_number_label.pack(pady=5)
         
         # 题目显示
-        self.question_label = tk.Label(root, text=self.questions[self.current_question], font=("Arial", 12), wraplength=350)  # 字体稍微小一点
+        self.question_label = tk.Label(root, text=self.questions[self.current_question], font=("Arial", 14), wraplength=350)  # 字体稍微小一点
         self.question_label.pack(pady=20)
         
         # 选项
